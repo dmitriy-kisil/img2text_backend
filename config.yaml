@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+hardware: A10
+include: "[main.py, requirements.txt]"
+exclude: "[.venv, ./*.jpg, ./*.jpg*, ./.*, ./__*]"
+log_level: INFO
+disable_animation: false
